@@ -9,7 +9,7 @@ public class WaterSpherePool : MonoBehaviour
 
     [SerializeField] private WaterSphereProperties prefab;
 
-    [SerializeField, Range(1, 40000)] public int maxSpawnAmount;
+    [SerializeField, Range(1, 100000)] public int maxSpawnAmount;
     private ObjectPool<WaterSphereProperties> pool;
 
     void Awake()

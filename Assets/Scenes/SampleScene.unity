@@ -157,8 +157,10 @@ MonoBehaviour:
   initialSize: {x: 0.25, y: 0.25, z: 0.25}
   useJobs: 0
   g: -9.8
-  numSpawnPerUpdate: 100
+  numSpawnPerUpdate: 1000
   numSpheres: 0
+  updateTime: 0
+  returnTime: 0
   doDrawGizmos: 1
 --- !u!4 &377371356
 Transform:
@@ -299,7 +301,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 3319964384215820141, guid: f48b11e9e847eb841ad7a4d3a6208bff, type: 3}
-  maxSpawnAmount: 40000
+  maxSpawnAmount: 50000
 --- !u!4 &778997914
 Transform:
   m_ObjectHideFlags: 0
